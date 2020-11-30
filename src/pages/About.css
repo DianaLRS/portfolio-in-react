@@ -1,0 +1,10 @@
+
+
+#about{
+    border: solid black 1px;
+    width: 100%;
+    height: fit-content;
+    margin-top: 10%;
+    margin-left: -3%;
+    background-color:rgba(207, 201, 201, 0.39);
+}

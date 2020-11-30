@@ -1,5 +1,6 @@
 
 import React from "react";
+import {Link} from "react-router-dom";
 import "./style.css"
 
 function Navbar(){
@@ -9,9 +10,18 @@ function Navbar(){
       <span className="navbar-brand mb-0 h1 header">Navbar Header Here</span>
     <container>
     <div className="btn-group" role="group" aria-label="Basic example">
-  <button type="button" className="btn">Home</button>
-  <button type="button" className="btn">Portfolio</button>
-  <button type="button" className="btn">About</button>
+  
+  <button type="button" className="btn"> 
+  <Link to ="/">Home </Link>
+    </button>
+  
+  <button type="button" className="btn">
+    <Link to ="/Portfolio">Portfolio</Link>
+      </button>
+  
+  <button type="button" className="btn">
+    <Link to="/About">About</Link>
+      </button>
 </div>
     </container>
     </nav>

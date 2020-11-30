@@ -1,9 +1,9 @@
 import React from "react";
+import { Link } from 'react-router';
 
 function ContactMe(){
 
-    <a href="https://www.linkedin.com/in/diana-l-ramos-7b06241a9/" target="blank" class="fa fa-linkedin"></a>
+
 
 }
-
 export default ContactMe
