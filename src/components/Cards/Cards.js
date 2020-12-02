@@ -19,7 +19,7 @@ return(
     <Carousel.Caption className="text">
       <h3>Aesthetica</h3>
       <p>Aesthetica is a user friendly and interactive app that bridges fashion and community.</p>
-      <a target="blank" href="https://secure-ocean-28347.herokuapp.com/">Aesthetica</a>
+      <a target="blank" href="https://secure-ocean-28347.herokuapp.com/">Visit Page</a>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item className="arrow">
@@ -32,12 +32,12 @@ return(
     <Carousel.Caption className="text">
       <h3>Lit Wine</h3>
       <p>A Wine and Book pairing app.</p>
-      <a target="blank" href="https://blegesse-git.github.io/Project-1/">Lit Wine</a>
+      <a target="blank" href="https://blegesse-git.github.io/Project-1/">Visit Page</a>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item className="arrow">
     <img
-      className="d-block w-100"
+      className="d-block w-100 "
       src={password}
       alt="password-gen"
     />
@@ -45,7 +45,7 @@ return(
     <Carousel.Caption className="text">
       <h3>Random Password Generator</h3>
       <p>Simple random password generator.</p>
-      <a target="blank" href="https://dianalrs.github.io/Password-Generator/">Password Generator</a>
+      <a target="blank" href="https://dianalrs.github.io/Password-Generator/">Visit Page</a>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item className="arrow">
@@ -58,7 +58,7 @@ return(
     <Carousel.Caption className="text">
       <h3>Note Taker App</h3>
       <p>A simple, and easy-to-use note taking app.</p>
-      <a target="blank" href="https://desolate-inlet-44144.herokuapp.com/">Note-Taker</a>
+      <a target="blank" href="https://desolate-inlet-44144.herokuapp.com/">Visit Page</a>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

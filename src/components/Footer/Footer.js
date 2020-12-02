@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "./style.css"
 import githubLogo from "../../assets/images/githubLogo.png"
 import linkedIn from "../../assets/images/linkedIn.png"
