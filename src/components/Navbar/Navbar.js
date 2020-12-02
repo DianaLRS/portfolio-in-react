@@ -12,15 +12,15 @@ function Navbar(){
     <div className="btn-group" role="group" aria-label="Basic example">
   
   <button type="button" className="btn"> 
-  <Link to ="/">Home </Link>
+  <Link to ="/" className="link">Home </Link>
     </button>
   
   <button type="button" className="btn">
-    <Link to ="/Portfolio">Portfolio</Link>
+    <Link to ="/Portfolio" className="link">Portfolio</Link>
       </button>
   
   <button type="button" className="btn">
-    <Link to="/About">About</Link>
+    <Link to="/About" className="link">About</Link>
       </button>
 </div>
     </container>
