@@ -10,11 +10,9 @@ function Portfolio(){
     return(
         <>
         <Container>
-            {/* <Row>
-            <Col> */}
+       
             <Cards/>
-            {/* </Col>
-            </Row> */}
+         
                
         </Container>
 

@@ -3,6 +3,7 @@ import Container from "../components/Container/Conatiner"
 import Row from "../components/Grid/Row"
 import Col from "../components/Grid/Col"
 import "./About.css"
+import about from "../assets/images/about.jpg";
 
 function About(){
 
@@ -11,7 +12,7 @@ function About(){
 <Container>
 <Row>
         <Col>
-        <h1>THIS IS A PLACE HOLDER...INSERT IMAGE HERE</h1>
+        <img src={about}/>
         </Col>
 
         <Col>

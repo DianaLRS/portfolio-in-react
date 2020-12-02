@@ -1,7 +1,9 @@
 .container{
-   border: black solid ;
-   height: 875px;
+   border:  rgba(201, 164, 170, 0.945) solid ;
+   height: 757px;
    margin-top: 25px;
-
-
+   z-index:+ 1;
+   background: url("../../assets/images/option5.jpg");
+   background-size: contain;
 }
+

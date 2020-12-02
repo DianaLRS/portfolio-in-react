@@ -1,10 +1,15 @@
 
 
 #about{
-    border: solid black 1px;
+    /* border: solid rgba(255, 249, 249, 0.63) 1px; */
     width: 100%;
     height: fit-content;
     margin-top: 10%;
-    margin-left: -3%;
-    background-color:rgba(207, 201, 201, 0.39);
+    margin-left: -10%;
+    background-color: rgba(248, 238, 240, 0.678);
+    
+}
+
+img{
+    width: 475px;
 }

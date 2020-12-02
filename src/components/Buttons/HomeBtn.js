@@ -1,10 +1,14 @@
-import React from "react"
+import React from "react";
+import {Link} from "react-router-dom";
 
 function HomeBtn(){
 
 return(
-
-<button type="button" class="btn btn-secondary btn-lg">Explore</button>
+<div>
+<button type="button" className="btn btn-outline-secondary">
+<Link to ="/Portfolio" >Explore Portfolio</Link>
+</button>
+</div>
 )
 }
  

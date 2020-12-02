@@ -7,7 +7,7 @@ function Navbar(){
     return(
 <div>
     <nav className="navbar navbar">
-      <span className="navbar-brand mb-0 h1 header">Navbar Header Here</span>
+      <span className="navbar-brand mb-0 h1 header">Keeping it simple...</span>
     <container>
     <div className="btn-group" role="group" aria-label="Basic example">
   
