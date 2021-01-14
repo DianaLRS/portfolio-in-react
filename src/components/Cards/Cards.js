@@ -5,6 +5,7 @@ import LitWine from"../../assets/images/LitWine.png";
 import shop from "../../assets/images/shop.png";
 import password from "../../assets/images/password.png";
 import noteapp from "../../assets/images/noteapp.png";
+import PARTIE from "../../assets/images/PARTIE.png";
 
 
 function Cards(){
@@ -22,6 +23,21 @@ return(
       <a target="blank" href="https://secure-ocean-28347.herokuapp.com/">Visit Page</a>
     </Carousel.Caption>
   </Carousel.Item>
+  <Carousel.Item className="arrow">
+    <img
+      className="d-block w-100"
+      src={PARTIE}
+      alt="partie-app"
+    />
+
+    <Carousel.Caption className="text">
+      <h3>PARTIE APP</h3>
+      <p>An event-planning REACTJS app made for event planners where they can keep track of their upcoming planned events, track the budget, todos, invoices and RSVPs if needed, all on a clean, clutter free dashboard</p>
+      <a target="blank" href="https://powerful-fortress-17827.herokuapp.com/">Visit Page</a>
+    </Carousel.Caption>
+  </Carousel.Item>
+
+  
   <Carousel.Item className="arrow">
     <img
       className="d-block w-100"
@@ -61,6 +77,8 @@ return(
       <a target="blank" href="https://desolate-inlet-44144.herokuapp.com/">Visit Page</a>
     </Carousel.Caption>
   </Carousel.Item>
+
+
 </Carousel>
 )
 }

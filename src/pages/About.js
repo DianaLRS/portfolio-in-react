@@ -23,8 +23,8 @@ function About(){
     I had the privelege to develop a passion for travel and education which led me to becoming a travelling teacher. While the skills I learned from my time teaching have become invaluable to me, I realized that in order for me to give others the support and access to education I was gifted with, that I would need to expand further into the digital world. 
  I strive to use my skills in web development to give the same opportunities to people who aspire to break their own cycle of poverty but lack the resources necessary to do it.</p>
  <p> When I'm not travelling, I am likely adding to my vast indoor plant collection, scavenging around town for either a quality cup of coffee or a well-made Whiskey Sour (yes to the egg), or taking in stray animals to the dismay of my family.</p>
- <p> <strong>Currently focused:</strong> HTML, CSS, JQUERY, JavaScript, React </p>
-  <p> <strong>Experience with:</strong> Express, Node, Handlebars, Mongodb, Mysql, OOP</p>
+ <p> <strong>Currently focused on:</strong> Front-End Development, React.js</p>
+  <p> <strong>Experience with:</strong> HTML, CSS, JS, JQuery, MERN Stack, Handlebars, MySQL, OOP</p>
   </div>
   </Col>
   </Row>

@@ -16,13 +16,12 @@ function App() {
     <div>
       <Navbar />
       <Wrapper>
+        <Route exact path="/portfolio-in-react" component={Main} />
+        
         <Route exact path="/" component={Main} />
          <Route exact path="/main" component={Main} />
         <Route exact path="/portfolio" component={Portfolio} />
-
         <Route exact path="/about" component={About} />
-
-      
       </Wrapper>
       <Footer/>
     </div>
