@@ -1,48 +1,12 @@
-const express = require("express");
-const path = require("path");
-const PORT = process.env.PORT || 3001;
+const path = require('path');
+const express = require('express');
 const app = express();
-const mongoose = require("mongoose");
-const routes = require("./routes");
-
-// Define middleware here
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-// Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
-
-// Define API routes here
-app.use(routes);
-
-// Send every other request to the React app
-// Define any API routes before this runs
-// Connect to the Mongo DB
-
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/Portfoliodb", 
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-}).then(() =>{
-  console.log("it worked")
-  
-}).catch((e) => {
-  console.log("it didnt work")
-  console.log(e)
+const publicPath = path.join(__dirname, '..', 'public');
+const port = process.env.PORT || 3001;
+app.use(express.static(publicPath));
+app.get('*', (req, res) => {
+   res.sendFile(path.join(publicPath, 'index.html'));
 });
-
-mongoose.connection.on("connected", () => {
-  console.log("Mongoose has connected!");
-})
-
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "./client/public/index.html"));
-// });
-
-app.listen(PORT, () => {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+app.listen(port, () => {
+   console.log('Server is up!');
 });
